@@ -379,6 +379,13 @@ C       122.128.0.0 is directly connected, FastEthernet4/0
 R    155.169.0.0/16 [120/1] via 20.0.0.2, 00:00:10, Serial3/0
 R    192.168.1.0/24 [120/1] via 20.0.0.2, 00:00:10, Serial3/0
 ```
+![image](https://github.com/user-attachments/assets/2d2de0d6-4c2a-43da-b82e-4abee9da0b10)
+
+![image](https://github.com/user-attachments/assets/1c3c15fc-99cb-42f0-ae1d-2c8a39c61d3d)
+
+![image](https://github.com/user-attachments/assets/caccf4c7-cb52-4234-8517-2d9aae97a94e)
+
+
 
 ## Setting up the web server
 
