@@ -402,8 +402,8 @@ then to view this, we go on `http://111.169.1.2` through the web browser \
 ![image](https://github.com/user-attachments/assets/7632e9c7-d578-441c-bd5a-d8adddfa97f1)
 
 
-
-## RIP (Routing Information Protocol) :
+## RIP AND NTP
+### RIP (Routing Information Protocol) :
 - RIP is a distance-vector routing protocol used in small to medium-sized networks for dynamically sharing routing information between routers.
 - Operates at the network layer (Layer 3) of the OSI model. RIP is mainly used in small to medium-sized networks due to its simplicity and limited scalability.
 - RIP uses hop count as the metric to measure the distance between networks. with 15 hops being the max.
@@ -411,7 +411,7 @@ then to view this, we go on `http://111.169.1.2` through the web browser \
 - Routers exchange routing tables every 30 seconds by broadcasting them to their neighbors. Works on UDP port 520.
 - RIP uses split horizon and route poisoning to prevent loops.
 
-## NTP (Network Time Protocol):
+### NTP (Network Time Protocol):
 - NTP is a time synchronization protocol used to synchronize the clocks of network devices (routers, switches, servers, computers, etc.).
 - It ensures accurate timekeeping across the network, which is essential for logging, security, and network operations.
 - NTP operates at the application layer (Layer 7) of the OSI model.
@@ -420,6 +420,18 @@ then to view this, we go on `http://111.169.1.2` through the web browser \
   
 ## Ethernet Frame
 
-( write bullshit about ethernet frame in network and stuff about its structure and shyt. ) \
+An **Ethernet frame** is a structured data packet used in **Ethernet networks** to transmit information between devices in a **Local Area Network (LAN)**. It ensures data is properly formatted, addressed, and verified for errors.
+
+### Structure of an Ethernet Frame
+An Ethernet frame consists of several key components:
+
+- **Preamble**: A 7-byte sequence used for synchronization between sender and receiver.
+- **Start Frame Delimiter (SFD)**: A 1-byte field (10101011) that marks the beginning of the frame.
+- **Destination MAC Address**: A 6-byte address identifying the receiving device.
+- **Source MAC Address**: A 6-byte address identifying the sender.
+- **EtherType / Length**: A 2-byte field indicating the type of protocol being used (IPv4, IPv6, ARP) or the length of the payload.
+- **Payload (Data)**: The actual data being transmitted, ranging from 46 to 1500 bytes.
+- **Frame Check Sequence (FCS)**: A 4-byte error-checking mechanism using Cyclic Redundancy Check (CRC).
+
 Ethernet frame captured at Router2 when sending requests from PC0 to Server0 : \
 ![image](https://github.com/user-attachments/assets/b2af58b2-ca1c-4c04-beb8-54f3b468c59f)
