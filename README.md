@@ -110,7 +110,7 @@ Have a router configuration summary \
 table with `Router | interface | IP | subnet mask | device` 
 
 ## Implementing RIP and setting up NTP server:
-### `Router 1` 
+### `Perform the same below commands for Router1, Router2, Router3`
 ```
 Router>enable
 Router#config t
@@ -127,48 +127,6 @@ Router(config-router)#exit
 Router(config)#ntp server 111.169.1.3
 Router(config)#exit
 Router#copy running-config startup-config
-Router#show clock
-16:36:58.288 UTC Mon Mar 10 2025
-```
-### `Router 2` 
-```
-Router>enable
-Router#config t
-Router(config)#router rip
-Router(config)#version 2
-Router(config-router)#network 192.168.1.0
-Router(config-router)#network 155.169.0.0
-Router(config-router)#network 10.0.0.0
-Router(config-router)#network 20.0.0.0
-Router(config-router)#network 111.0.0.0
-Router(config-router)#network 122.0.0.0
-Router(config-router)#network 30.0.0.0
-Router(config-router)#exit
-Router(config)#ntp server 111.169.1.3
-Router(config)#exit
-Router#copy running-config startup-config
-Router#show clock
-16:36:58.288 UTC Mon Mar 10 2025
-```
-### `Router 3`
-```
-Router>enable
-Router#config t
-Router(config)#router rip
-Router(config)#version 2
-Router(config-router)#network 192.168.1.0
-Router(config-router)#network 155.169.0.0
-Router(config-router)#network 10.0.0.0
-Router(config-router)#network 20.0.0.0
-Router(config-router)#network 111.0.0.0
-Router(config-router)#network 122.0.0.0
-Router(config-router)#network 30.0.0.0
-Router(config-router)#exit
-Router(config)#ntp server 111.169.1.3
-Router(config)#exit
-Router#copy running-config startup-config
-Router#show clock
-16:37:23.704 UTC Mon Mar 10 2025
 ```
 
 We decided to select the server at `111.169.1.3` i.e. `Sever1` to be our NTP server. \
