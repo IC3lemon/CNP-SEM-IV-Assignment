@@ -399,3 +399,10 @@ then to view this, we go on `http://111.169.1.2` through the web browser \
 
 
 ## WRITE SHIT ABOUT RIP AND NTP NOW PLS
+
+
+## Ethernet Frame
+
+( write bullshit about ethernet frame in network and stuff about its structure and shyt. ) \
+Ethernet frame captured at Router2 when sending requests from PC0 to Server0 : \
+![image](https://github.com/user-attachments/assets/b2af58b2-ca1c-4c04-beb8-54f3b468c59f)
