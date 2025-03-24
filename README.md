@@ -115,6 +115,7 @@ table with `Router | interface | IP | subnet mask | device`
 Router>enable
 Router#config t
 Router(config)#router rip
+Router(config)#version 2
 Router(config-router)#network 192.168.1.0
 Router(config-router)#network 155.169.0.0
 Router(config-router)#network 10.0.0.0
@@ -134,6 +135,7 @@ Router#show clock
 Router>enable
 Router#config t
 Router(config)#router rip
+Router(config)#version 2
 Router(config-router)#network 192.168.1.0
 Router(config-router)#network 155.169.0.0
 Router(config-router)#network 10.0.0.0
@@ -153,6 +155,7 @@ Router#show clock
 Router>enable
 Router#config t
 Router(config)#router rip
+Router(config)#version 2
 Router(config-router)#network 192.168.1.0
 Router(config-router)#network 155.169.0.0
 Router(config-router)#network 10.0.0.0
