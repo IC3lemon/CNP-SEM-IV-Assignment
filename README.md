@@ -375,3 +375,7 @@ then to view this, we go on `http://111.169.1.2` through the web browser \
 ![image](https://github.com/user-attachments/assets/ed954e98-d9b6-4149-972f-cd86759dfee7)
 
 ![image](https://github.com/user-attachments/assets/7632e9c7-d578-441c-bd5a-d8adddfa97f1)
+
+
+
+WRITE SHIT ABOUT RIP AND NTP NOW PLS
