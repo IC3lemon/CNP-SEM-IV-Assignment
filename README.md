@@ -106,6 +106,8 @@ Router(config-if)#exit
 Router(config)#exit
 Router#copy running-config startup-config
 ```
+Have a router configuration summary \
+table with `Router | interface | IP | subnet mask | device` 
 
 ## Implementing RIP and setting up NTP server:
 ### `Router 1` 
