@@ -8,7 +8,8 @@
 # `Writeup`
 
 ## Network topology :
-![image](https://github.com/user-attachments/assets/885c0b1f-ecd0-4bb5-9efb-e39caa572538)
+![image](https://github.com/user-attachments/assets/580f93ba-627d-4648-b197-c2877ae69b0c)
+
 
 ## Ip addressing :
 consists of the networks :
