@@ -35,7 +35,7 @@ consists of the networks :
   	- PC13 `122.163.1.5`
   	- PC14 `122.163.1.6`
 
-links :  (i think u could ignore this not too sure)
+links :  (i think u could ignore these not too sure)
 - `10.0.0.0`
 - `20.0.0.0`
 - `30.0.0.0`
