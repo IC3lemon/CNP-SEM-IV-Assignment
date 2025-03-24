@@ -403,9 +403,21 @@ then to view this, we go on `http://111.169.1.2` through the web browser \
 
 
 
-## WRITE SHIT ABOUT RIP AND NTP NOW PLS
+## RIP (Routing Information Protocol) :
+- RIP is a distance-vector routing protocol used in small to medium-sized networks for dynamically sharing routing information between routers.
+- Operates at the network layer (Layer 3) of the OSI model. RIP is mainly used in small to medium-sized networks due to its simplicity and limited scalability.
+- RIP uses hop count as the metric to measure the distance between networks. with 15 hops being the max.
+- Each router maintains a routing table that stores the best-known paths to other networks.
+- Routers exchange routing tables every 30 seconds by broadcasting them to their neighbors. Works on UDP port 520.
+- RIP uses split horizon and route poisoning to prevent loops.
 
+## NTP (Network Time Protocol):
+- NTP is a time synchronization protocol used to synchronize the clocks of network devices (routers, switches, servers, computers, etc.).
+- It ensures accurate timekeeping across the network, which is essential for logging, security, and network operations.
+- NTP operates at the application layer (Layer 7) of the OSI model.
+- uses UDP port 123.
 
+  
 ## Ethernet Frame
 
 ( write bullshit about ethernet frame in network and stuff about its structure and shyt. ) \
