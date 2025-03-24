@@ -178,101 +178,16 @@ and enabled it by turning on it's NTP service and setting any certain date + tim
 
 ## Verifying RIP for each router. Performed via `show ip protocols`
 ### `Router 1` 
-```
-Router#show ip protocols
-Routing Protocol is "rip"
-Sending updates every 30 seconds, next due in 14 seconds
-Invalid after 180 seconds, hold down 180, flushed after 240
-Outgoing update filter list for all interfaces is not set
-Incoming update filter list for all interfaces is not set
-Redistributing: rip
-Default version control: send version 1, receive any version
-  Interface             Send  Recv  Triggered RIP  Key-chain
-  FastEthernet4/0       12 1
-  FastEthernet5/0       12 1
-  Serial2/0             12 1
-  Serial3/0             12 1
-Automatic network summarization is in effect
-Maximum path: 4
-Routing for Networks:
-	10.0.0.0
-	20.0.0.0
-	30.0.0.0
-	111.0.0.0
-	122.0.0.0
-	155.169.0.0
-	192.168.1.0
-Passive Interface(s):
-Routing Information Sources:
-	Gateway         Distance      Last Update
-	20.0.0.3             120      00:00:04
-	10.0.0.2             120      00:00:03
-Distance: (default is 120)
-```
-### `Router 2` 
-```
-Router#show ip protocols
-Routing Protocol is "rip"
-Sending updates every 30 seconds, next due in 14 seconds
-Invalid after 180 seconds, hold down 180, flushed after 240
-Outgoing update filter list for all interfaces is not set
-Incoming update filter list for all interfaces is not set
-Redistributing: rip
-Default version control: send version 1, receive any version
-  Interface             Send  Recv  Triggered RIP  Key-chain
-  Serial2/0             12 1
-  Serial3/0             12 1
-  FastEthernet0/0       12 1
-Automatic network summarization is in effect
-Maximum path: 4
-Routing for Networks:
-	10.0.0.0
-	20.0.0.0
-	30.0.0.0
-	111.0.0.0
-	122.0.0.0
-	155.169.0.0
-	192.168.1.0
-Passive Interface(s):
-Routing Information Sources:
-	Gateway         Distance      Last Update
-	10.0.0.3             120      00:00:22
-	30.0.0.2             120      00:00:12
-Distance: (default is 120)
-```
-### `Router 3` 
-```
-Router#show ip protocols
-Routing Protocol is "rip"
-Sending updates every 30 seconds, next due in 18 seconds
-Invalid after 180 seconds, hold down 180, flushed after 240
-Outgoing update filter list for all interfaces is not set
-Incoming update filter list for all interfaces is not set
-Redistributing: rip
-Default version control: send version 1, receive any version
-  Interface             Send  Recv  Triggered RIP  Key-chain
-  Serial3/0             12 1
-  FastEthernet4/0       12 1
-  Serial2/0             12 1
-Automatic network summarization is in effect
-Maximum path: 4
-Routing for Networks:
-	10.0.0.0
-	20.0.0.0
-	30.0.0.0
-	111.0.0.0
-	122.0.0.0
-	155.169.0.0
-	192.168.1.0
-Passive Interface(s):
-Routing Information Sources:
-	Gateway         Distance      Last Update
-	20.0.0.2             120      00:00:16
-	30.0.0.3             120      00:00:10
-Distance: (default is 120)
-```
+![image](https://github.com/user-attachments/assets/67516949-2854-4dde-b308-c6f52bd43a03)
 
-We can see on the first line the routing protocol being mentioned RIP on all three routers, thus indicating succesful setup.
+### `Router 2` 
+![image](https://github.com/user-attachments/assets/3514cf2e-d923-4aec-bdd1-9545b92f9c15)
+
+### `Router 3`
+![image](https://github.com/user-attachments/assets/613639c9-47c1-483d-b3b5-8ef859fb0ad1)
+
+
+We can see on the first line the routing protocol being mentioned RIP on all three routers, thus indicating succesful setup and verifying RIP.
 
 ## Verifying NTP for each router. Performed via `show clock`
 If NTP has been successfully seetup, the clock on each router would be synced to the clock on their corresponding NTP server \
