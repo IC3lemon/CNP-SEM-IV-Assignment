@@ -378,4 +378,4 @@ then to view this, we go on `http://111.169.1.2` through the web browser \
 
 
 
-WRITE SHIT ABOUT RIP AND NTP NOW PLS
+## WRITE SHIT ABOUT RIP AND NTP NOW PLS
