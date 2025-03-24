@@ -12,22 +12,22 @@
 
 ## Ip addressing :
 consists of the networks :
-- `111.169.1.0/8` with 2 hosts (class A | subnet mask `255.0.0.0`)
+- `111.169.1.0/8` with 2 hosts (class A | subnet mask `255.0.0.0`) with gateways at `111.169.1.1`
 	- Server0 `111.169.1.2`
  	- Server1 `111.169.1.3`
-- `192.168.1.0/24` with 5 hosts (class C | subnet mask `255.255.255.0`)
+- `192.168.1.0/24` with 5 hosts (class C | subnet mask `255.255.255.0`) with gateways at `192.168.1.1`
 	- PC0 `192.168.1.2`
  	- PC1 `192.168.1.3`
   	- PC2 `192.168.1.4`
   	- PC3 `192.168.1.5`
   	- PC4 `192.168.1.6`
-- `155.169.1.0/16` with 5 hosts (class B | subnet mask `255.255.0.0`)
+- `155.169.1.0/16` with 5 hosts (class B | subnet mask `255.255.0.0`) with gateways at `155.169.1.1`
   	- PC5 `155.169.1.2`
   	- PC6 `155.169.1.3`
   	- PC7 `155.169.1.4`
   	- PC8 `155.169.1.5`
   	- PC9 `155.169.1.6`
-- `122.163.1.0/10` with 5 hosts (classless | subnet mask `255.192.0.0`)
+- `122.163.1.0/10` with 5 hosts (classless | subnet mask `255.192.0.0`) with gateways at `122.163.1.1`
   	- PC10 `122.163.1.2`
   	- PC11 `122.163.1.3`
   	- PC12 `122.163.1.4`
