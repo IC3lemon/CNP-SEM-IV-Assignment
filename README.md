@@ -10,16 +10,36 @@
 ## Network topology :
 ![image](https://github.com/user-attachments/assets/885c0b1f-ecd0-4bb5-9efb-e39caa572538)
 
+## Ip addressing :
 consists of the networks :
-- `111.169.1.0/8` with 2 hosts (class A)
-- `192.168.1.0/24` with 5 hosts (class C)
-- `155.169.1.0/16` with 5 hosts (class B)
-- `122.163.1.0/10` with 5 hosts (classless)
+- `111.169.1.0/8` with 2 hosts (class A | subnet mask `255.0.0.0`)
+	- Server0 `111.169.1.2`
+ 	- Server1 `111.169.1.3`
+- `192.168.1.0/24` with 5 hosts (class C | subnet mask `255.255.255.0`)
+	- PC0 `192.168.1.2`
+ 	- PC1 `192.168.1.3`
+  	- PC2 `192.168.1.4`
+  	- PC3 `192.168.1.5`
+  	- PC4 `192.168.1.6`
+- `155.169.1.0/16` with 5 hosts (class B | subnet mask `255.255.0.0`)
+  	- PC5 `155.169.1.2`
+  	- PC6 `155.169.1.3`
+  	- PC7 `155.169.1.4`
+  	- PC8 `155.169.1.5`
+  	- PC9 `155.169.1.6`
+- `122.163.1.0/10` with 5 hosts (classless | subnet mask `255.192.0.0`)
+  	- PC10 `122.163.1.2`
+  	- PC11 `122.163.1.3`
+  	- PC12 `122.163.1.4`
+  	- PC13 `122.163.1.5`
+  	- PC14 `122.163.1.6`
 
 links :  (i think u could ignore this not too sure)
 - `10.0.0.0`
 - `20.0.0.0`
 - `30.0.0.0`
+
+
   
 ## Router configs : 
 ### `Router 1`
