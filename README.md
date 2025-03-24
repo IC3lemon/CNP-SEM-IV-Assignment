@@ -380,7 +380,7 @@ R    192.168.1.0/24 [120/1] via 20.0.0.2, 00:00:10, Serial3/0
 After the network has been setup \
 To setup a web server on Server0, we simply had to go on the server \
 enable http service and set an index.html for the landing page. \
-According to the question, set to the below script to display `All the best` 
+According to the question, set index.html to the below script to display `All the best` 
 
 `index.html`
 ```html
